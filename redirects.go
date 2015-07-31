@@ -44,6 +44,16 @@ func FindCabForTwilio(redirects []Redirect, twilio string) (string, error) {
 	return "", errors.New("Redirect not found")
 }
 
+func FindTwilioForID(redirects []Redirect, id string) (string, error) {
+	for _, redirect := range redirects {
+		if redirect.Id == id {
+			return redirect.Twilio, nil
+		}
+	}
+
+	return "", errors.New("Redirect not found")
+}
+
 func GenerateResponseXMLFor(to string) []byte {
 	response := &Response{
 		Dial: to,

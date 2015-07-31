@@ -57,6 +57,22 @@ func TestFindCabForTwilio(t *testing.T) {
 	}
 }
 
+func TestFindTwilioForID(t *testing.T) {
+	redirects := LoadRedirectsFromYAML("fixtures/redirects.yaml")
+
+	if _, err := FindTwilioForID(redirects, "123"); err != nil {
+		t.Error("Should not return an error for valid id")
+	}
+
+	if redirect, _ := FindTwilioForID(redirects, "123"); redirect != "456" {
+		t.Error("Should return Twilio number for valid id")
+	}
+
+	if _, err := FindTwilioForID(redirects, "000"); err == nil {
+		t.Error("Should return an error for invalid id")
+	}
+}
+
 func TestGenerateResponseXMLFor(t *testing.T) {
 	expected := []byte(strings.TrimSpace(responseXML))
 	result := GenerateResponseXMLFor("789")

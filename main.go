@@ -40,10 +40,33 @@ func TwilioHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Printf("%s %s %d\n", r.Method, r.URL.Path, responseCode)
 }
 
+func LookupHandler(w http.ResponseWriter, r *http.Request) {
+	var responseCode int
+
+	id := r.URL.Query().Get("id")
+
+	if id == "" {
+		responseCode = http.StatusBadRequest
+	} else {
+		redirectTo, err := FindTwilioForID(redirects, id)
+		if err != nil {
+			responseCode = http.StatusNotFound
+		} else {
+			responseCode = http.StatusOK
+			w.Write([]byte(redirectTo))
+		}
+	}
+
+	w.WriteHeader(responseCode)
+
+	fmt.Printf("%s %s %d\n", r.Method, r.URL.String(), responseCode)
+}
+
 func main() {
 	fmt.Printf("> Starting on http://0.0.0.0:%d\n", port)
 
 	http.HandleFunc("/twilio", TwilioHandler)
+	http.HandleFunc("/lookup", LookupHandler)
 
 	err := http.ListenAndServe(fmt.Sprintf(":%d", port), nil)
 	if err != nil {
