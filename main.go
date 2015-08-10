@@ -4,6 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"net/http"
+	"strings"
 )
 
 var (
@@ -43,7 +44,7 @@ func TwilioHandler(w http.ResponseWriter, r *http.Request) {
 func LookupHandler(w http.ResponseWriter, r *http.Request) {
 	var responseCode int
 
-	id := r.URL.Query().Get("id")
+	id := strings.TrimPrefix(r.URL.Path, "/lookup/")
 
 	if id == "" {
 		responseCode = http.StatusBadRequest
@@ -59,14 +60,14 @@ func LookupHandler(w http.ResponseWriter, r *http.Request) {
 
 	w.WriteHeader(responseCode)
 
-	fmt.Printf("%s %s %d\n", r.Method, r.URL.String(), responseCode)
+	fmt.Printf("%s %s %d\n", r.Method, r.URL.Path, responseCode)
 }
 
 func main() {
 	fmt.Printf("> Starting on http://0.0.0.0:%d\n", port)
 
 	http.HandleFunc("/twilio", TwilioHandler)
-	http.HandleFunc("/lookup", LookupHandler)
+	http.HandleFunc("/lookup/", LookupHandler)
 
 	err := http.ListenAndServe(fmt.Sprintf(":%d", port), nil)
 	if err != nil {
