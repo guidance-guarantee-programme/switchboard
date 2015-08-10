@@ -1,0 +1,13 @@
+language: go
+go:
+- 1.4.2
+install:
+- go get github.com/tools/godep
+- godep restore
+deploy:
+  provider: heroku
+  api_key:
+    secure: URkl1izha4eDTYrLc0Goe4rZm1cJnYcbdExVD4cgKqO+i/LDtArVHHs0eXvuPOIRNUW84OUCM2lXNa9MQNulILsuuAglXNmexiIEWLhrmo8jMjdGafkGak25glZ/Pk0L+Vtgs+U3+uQ8LBJBiyzsek5juC1BiVIY2u+mXAU3y87ambJNcoxb8IYSnJnnupnDb6l15tXYmOuIQVEqO6fwiA9/teCzFyRYl1GbXMWPq+KZ3g7E4QcUPKhEPeqzrlktx9c3RvGC6utJLauXFt/l8Yw1+k4Ro2ikETOoYvvST8g57XTIO35f3oUhyEJH9hGcgAt2J6seUCXl4mVX2Hx7pKh6Ia8FlV2V3hc19Iv1nPGZpnb/X05aG1W0yQS8v0uTTRHHowy1p4lTXfIA/5+wa5zAivwlz+KgFOuYM2m9/pH0sR+SJZV/xfL8Hak8O4Fu6lfbN5+YRBxmhZifbvCBuzqNMdqeZo7YD+8ysVYx1BuDbGmykHgvreBv5wDPXkbQUY6uKrXOexADIWE1ypZpyTWM3XOwwOKefdnU1ZWdS81afG5pi6LOuZjS4RLI5LlpcRPVrupjOb3g6rooKKCwAJpGBidyie1aswC04101fMR+zE67iW7Vq+mPTQhZ0gBuzCol3DnkZWmqOtNMr2BrshnYyFCwq2mCoTq4kZiUjRU=
+  app: staging-switchboard-pw-gov-uk
+  on:
+    repo: guidance-guarantee-programme/switchboard
