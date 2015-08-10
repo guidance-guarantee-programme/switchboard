@@ -44,6 +44,8 @@ func TwilioHandler(w http.ResponseWriter, r *http.Request) {
 func LookupHandler(w http.ResponseWriter, r *http.Request) {
 	var responseCode int
 
+	w.Header().Set("Content-Type", "application/json")
+
 	id := strings.TrimPrefix(r.URL.Path, "/lookup/")
 
 	if id == "" {
@@ -54,7 +56,7 @@ func LookupHandler(w http.ResponseWriter, r *http.Request) {
 			responseCode = http.StatusNotFound
 		} else {
 			responseCode = http.StatusOK
-			w.Write([]byte(redirectTo))
+			w.Write(GenerateResponseJSONFor(redirectTo))
 		}
 	}
 
