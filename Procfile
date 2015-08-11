@@ -1,0 +1,1 @@
+web: switchboard -p $PORT
