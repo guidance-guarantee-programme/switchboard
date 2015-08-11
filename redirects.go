@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"encoding/json"
 	"encoding/xml"
 	"errors"
 	"fmt"
@@ -18,6 +19,10 @@ type Redirect struct {
 
 type Response struct {
 	Dial string
+}
+
+type Phone struct {
+	Phone string `json:"phone"`
 }
 
 func LoadRedirectsFromYAML(path string) (redirects []Redirect) {
@@ -68,4 +73,14 @@ func GenerateResponseXMLFor(to string) []byte {
 	result.Write(responseXML)
 
 	return result.Bytes()
+}
+
+func GenerateResponseJSONFor(phone string) []byte {
+	response, err := json.Marshal(&Phone{phone})
+
+	if err != nil {
+		panic("Can't Generate JSON")
+	}
+
+	return response
 }

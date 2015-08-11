@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"encoding/json"
 	"fmt"
 	"strings"
 	"testing"
@@ -13,6 +14,12 @@ var responseXML = `
     <Dial>789</Dial>
 </Response>
 `
+
+var responseJSON = []byte(`
+{
+  "phone": "789"
+}
+`)
 
 func TestLoadRedirectsFromYAML(t *testing.T) {
 	var (
@@ -78,6 +85,17 @@ func TestGenerateResponseXMLFor(t *testing.T) {
 	result := GenerateResponseXMLFor("789")
 
 	if !bytes.Equal(expected, result) {
+		t.Error(fmt.Sprintf("Expected:\n%s\n\nGot:\n%s\n", expected, result))
+	}
+}
+
+func TestGenerateResponseJSONFor(t *testing.T) {
+	expected := new(bytes.Buffer)
+	_ = json.Compact(expected, responseJSON)
+
+	result := GenerateResponseJSONFor("789")
+
+	if !bytes.Equal(expected.Bytes(), result) {
 		t.Error(fmt.Sprintf("Expected:\n%s\n\nGot:\n%s\n", expected, result))
 	}
 }
