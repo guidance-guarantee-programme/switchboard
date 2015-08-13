@@ -3,6 +3,10 @@
   id: c002c214-7a39-4ff2-b21f-a4f3b45b14a1
   twilio: +441224515487
   cab: +441224569750
+- # Aberystwyth
+  id: b5948a66-34fa-44f9-9c62-641eb2cf501b
+  twilio: +441239393058
+  cab: +441239621594
 - # Coventry
   id: 26f675df-fbc6-41a2-9594-485c2052ec2e
   twilio: +442476100453
