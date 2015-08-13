@@ -4,7 +4,10 @@ import (
 	"flag"
 	"fmt"
 	"net/http"
+	"os"
 	"strings"
+
+	"github.com/bugsnag/bugsnag-go"
 )
 
 var (
@@ -13,6 +16,11 @@ var (
 )
 
 func init() {
+	bugsnag.Configure(bugsnag.Configuration{
+		APIKey:       os.Getenv("BUGSNAG_API_KEY"),
+		ReleaseStage: os.Getenv("BUGSNAG_RELEASE_STAGE"),
+	})
+
 	flag.IntVar(&port, "p", 8080, "Port to listen on")
 	flag.Parse()
 
@@ -71,7 +79,7 @@ func main() {
 	http.HandleFunc("/twilio", TwilioHandler)
 	http.HandleFunc("/lookup/", LookupHandler)
 
-	err := http.ListenAndServe(fmt.Sprintf(":%d", port), nil)
+	err := http.ListenAndServe(fmt.Sprintf(":%d", port), bugsnag.Handler(nil))
 	if err != nil {
 		panic("Error starting!")
 	}
