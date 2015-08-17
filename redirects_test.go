@@ -8,12 +8,24 @@ import (
 	"testing"
 )
 
-var responseXML = `
+var responseXML = []string{
+	`
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Dial>789</Dial>
+    <Dial>
+        <Number>789</Number>
+    </Dial>
 </Response>
-`
+	`,
+	`
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Dial>
+        <Number sendDigits="100">789</Number>
+    </Dial>
+</Response>
+	`,
+}
 
 var responseJSON = []byte(`
 {
@@ -91,12 +103,18 @@ func TestFindTwilioForID(t *testing.T) {
 }
 
 func TestGenerateResponseXMLFor(t *testing.T) {
-	expected := []byte(strings.TrimSpace(responseXML))
-	redirect := Redirect{Cab: "789"}
-	result := GenerateResponseXMLFor(redirect)
+	redirects := []Redirect{
+		{Cab: "789"},
+		{Cab: "789", CabExtension: "100"},
+	}
 
-	if !bytes.Equal(expected, result) {
-		t.Error(fmt.Sprintf("Expected:\n%s\n\nGot:\n%s\n", expected, result))
+	for i := 0; i <= len(responseXML)-1; i++ {
+		expected := []byte(strings.TrimSpace(responseXML[i]))
+		result := GenerateResponseXMLFor(redirects[i])
+
+		if !bytes.Equal(expected, result) {
+			t.Error(fmt.Sprintf("Expected:\n%s\n\nGot:\n%s\n", expected, result))
+		}
 	}
 }
 

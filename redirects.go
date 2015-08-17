@@ -18,8 +18,17 @@ type Redirect struct {
 	CabExtension string `yaml:"cab_ext"`
 }
 
+type Number struct {
+	Number    string `xml:",chardata"`
+	Extension string `xml:"sendDigits,attr,omitempty"`
+}
+
+type Dial struct {
+	Number Number
+}
+
 type Response struct {
-	Dial string
+	Dial Dial
 }
 
 type Phone struct {
@@ -62,7 +71,12 @@ func FindTwilioForID(redirects []Redirect, id string) (string, error) {
 
 func GenerateResponseXMLFor(redirect Redirect) []byte {
 	response := &Response{
-		Dial: redirect.Cab,
+		Dial: Dial{
+			Number: Number{
+				Number:    redirect.Cab,
+				Extension: redirect.CabExtension,
+			},
+		},
 	}
 
 	responseXML, err := xml.MarshalIndent(response, "", "    ")
