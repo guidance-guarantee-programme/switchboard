@@ -40,14 +40,14 @@ func LoadRedirectsFromYAML(path string) (redirects []Redirect) {
 	return
 }
 
-func FindCabForTwilio(redirects []Redirect, twilio string) (string, error) {
+func FindRedirectForTwilio(redirects []Redirect, twilio string) (Redirect, error) {
 	for _, redirect := range redirects {
 		if redirect.Twilio == twilio {
-			return redirect.Cab, nil
+			return redirect, nil
 		}
 	}
 
-	return "", errors.New("Redirect not found")
+	return Redirect{}, errors.New("Redirect not found")
 }
 
 func FindTwilioForID(redirects []Redirect, id string) (string, error) {
@@ -60,9 +60,9 @@ func FindTwilioForID(redirects []Redirect, id string) (string, error) {
 	return "", errors.New("Redirect not found")
 }
 
-func GenerateResponseXMLFor(to string) []byte {
+func GenerateResponseXMLFor(redirect Redirect) []byte {
 	response := &Response{
-		Dial: to,
+		Dial: redirect.Cab,
 	}
 
 	responseXML, err := xml.MarshalIndent(response, "", "    ")

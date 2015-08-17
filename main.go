@@ -35,12 +35,12 @@ func TwilioHandler(w http.ResponseWriter, r *http.Request) {
 	if number == "" {
 		responseCode = http.StatusBadRequest
 	} else {
-		redirectTo, err := FindCabForTwilio(redirects, number)
+		redirect, err := FindRedirectForTwilio(redirects, number)
 		if err != nil {
 			responseCode = http.StatusNotFound
 		} else {
 			responseCode = http.StatusOK
-			w.Write(GenerateResponseXMLFor(redirectTo))
+			w.Write(GenerateResponseXMLFor(redirect))
 		}
 	}
 
