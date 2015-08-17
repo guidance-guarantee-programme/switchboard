@@ -12,9 +12,10 @@ import (
 )
 
 type Redirect struct {
-	Id     string `yaml:"id"`
-	Twilio string `yaml:"twilio"`
-	Cab    string `yaml:"cab"`
+	Id           string `yaml:"id"`
+	Twilio       string `yaml:"twilio"`
+	Cab          string `yaml:"cab"`
+	CabExtension string `yaml:"cab_ext"`
 }
 
 type Response struct {

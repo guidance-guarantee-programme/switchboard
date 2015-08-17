@@ -29,8 +29,8 @@ func TestLoadRedirectsFromYAML(t *testing.T) {
 
 	redirects = LoadRedirectsFromYAML("fixtures/redirects.yaml")
 
-	if len(redirects) != 1 {
-		t.Error("Should return a slice of 1 Redirect")
+	if len(redirects) != 2 {
+		t.Error("Should return a slice of 2 Redirects")
 	}
 
 	redirect = redirects[0]
@@ -45,6 +45,16 @@ func TestLoadRedirectsFromYAML(t *testing.T) {
 
 	if redirect.Cab != "789" {
 		t.Error("Cab should be set")
+	}
+
+	if redirect.CabExtension != "" {
+		t.Error("CabExtension should not be set")
+	}
+
+	redirectWithExtension := redirects[1]
+
+	if redirectWithExtension.CabExtension != "100" {
+		t.Error("CabExtension should be set")
 	}
 }
 
