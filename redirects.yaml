@@ -1,8 +1,101 @@
 ---
+#
+# NICAB
+#
+- # Antrim
+  id: 73abedb4-f822-4f5f-b7a9-6aa1f627f41a
+  twilio: +442895072287
+  cab: +442894428176
+- # Ards
+  id: 8862652c-a7e0-4aba-8846-91f836ebbffe
+  twilio: +442891042321
+  cab: +442891801929
+- # Armagh
+  id: f0946066-3417-4db8-8b8b-c43d7a66b89f
+  twilio: +442895072219
+  cab: +442837526699
+- # Ballymena
+  id: 2d320a0c-89f0-44d7-9cf9-6f29e4f97dd8
+  twilio: +442825022056
+  cab: +442825655970
+- # Banbridge
+  id: 87aaf9ab-7619-4ebb-81e8-ad5abef8785e
+  twilio: +442895072309
+  cab: +442840662174
+- # Bangor
+  id: db7c39db-d64c-4561-a2a4-e4556690a64c
+  twilio: +442891042136
+  cab: +442891450787
+- # Belfast
+  id: 1de9b76c-c349-4e2a-a3a7-bb0f59b0807e
+  twilio: +442895072302
+  cab: +443001233233
+- # Carrickfergus
+  id: 4d220dda-00f3-40cd-85a1-de97d76788c3
+  twilio: +442895072322
+  cab: +442893351808
+- # Coleraine
+  id: ae357a58-ce26-45ec-9339-d173120ee167
+  twilio: +442895072214
+  cab: +442870329775
+- # Cookstown
+  id: 9de3a232-35bb-483b-9d8a-ce28004da478
+  twilio: +442895072329
+  cab: +442886766891
+- # Craigavon
+  id: 5a9df3a1-06e5-4f25-974f-2dcf6080fe3d
+  twilio: +442838022004
+  cab: +442838333571
+- # Derry
+  id: 03ca70f3-f76a-4563-a243-571000f80ab4
+  twilio: +442895072275
+  cab: +442871347047
+- # Downpatrick
+  id: bc0cdad0-7e6c-4aa3-a423-416f56cb26dc
+  twilio: +442895072238
+  cab: +442844614110
+- # Dungannon
+  id: 4fbed63d-5cff-4366-bb3c-7e0011e01214
+  twilio: +442895072315
+  cab: +442887723458
+- # Fermanagh
+  id: 5a2c0f21-0e97-44ce-aca6-8f0594a828b8
+  twilio: +442895072263
+  cab: +442866324334
+- # Holywood
+  id: 35347b64-0059-4bf8-bdcb-7871ac72b5ab
+  twilio: +442895072266
+  cab: +443001233233
+- # Larne
+  id: b5c1e099-8038-4675-9e5b-74218945e9ac
+  twilio: +442895072215
+  cab: +442828260379
+- # Lisburn
+  id: 37453886-59a0-467e-acae-2d7aec449c2b
+  twilio: +442895072247
+  cab: +442892662251
+- # Newry
+  id: 4cb189d7-a788-4914-b57b-9d0aa2436ce8
+  twilio: +442895072196
+  cab: +442830262591
+- # Newtownabbey
+  id: 26d6c706-3a40-4123-b17d-9f4d4274d7b3
+  twilio: +442895072271
+  cab: +442890853271
+- # Strabane
+  id: beafeb21-7cd6-4a88-a372-d632fc63f291
+  twilio: +442895072323
+  cab: +442871347047
+#
+# CAS
+#
 - # Aberdeen
   id: c002c214-7a39-4ff2-b21f-a4f3b45b14a1
   twilio: +441224515487
   cab: +441224569750
+#
+# CITA
+#
 - # Aberystwyth
   id: b5948a66-34fa-44f9-9c62-641eb2cf501b
   twilio: +441239393058
