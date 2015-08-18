@@ -659,10 +659,6 @@
   id: 18ef0b7d-b13a-4284-9765-aa888aa4ba09
   twilio: +441239803396
   cab: +441239621594
-- # Aberystwyth
-  id: b5948a66-34fa-44f9-9c62-641eb2cf501b
-  twilio: +441970604454
-  cab: +441239621594
 - # Chelmsford
   id: ecb39ba7-ad9e-4dca-b3a6-904bc3421436
   twilio: +441245330291
@@ -831,10 +827,6 @@
   id: c26be4e6-5460-4a95-a921-36b32854ffb9
   twilio: +441837514078
   cab: +443333442480
-- # Coventry
-  id: 26f675df-fbc6-41a2-9594-485c2052ec2e
-  twilio: +442476100407
-  cab: +442476252621
 - # Bedworth
   id: 60dc0a9b-64dc-4893-ad65-2e9f3586f0b2
   twilio: +442476100196
@@ -1402,10 +1394,6 @@
 - # Tunbridge Wells
   id: 8f664efa-b15a-4e44-9ee6-07befe5a85f9
   twilio: +441892803028
-  cab: +441622756989
-- # Cranbrook
-  id: 6f9cf62d-c1ad-42e0-9452-56760381a2e0
-  twilio: +441580392069
   cab: +441622756989
 - # Faversham
   id: 406323bc-0e9e-45b9-99af-184e5523662a
