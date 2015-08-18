@@ -12,13 +12,23 @@ import (
 )
 
 type Redirect struct {
-	Id     string `yaml:"id"`
-	Twilio string `yaml:"twilio"`
-	Cab    string `yaml:"cab"`
+	Id           string `yaml:"id"`
+	Twilio       string `yaml:"twilio"`
+	Cab          string `yaml:"cab"`
+	CabExtension string `yaml:"cab_ext"`
+}
+
+type Number struct {
+	Number    string `xml:",chardata"`
+	Extension string `xml:"sendDigits,attr,omitempty"`
+}
+
+type Dial struct {
+	Number Number
 }
 
 type Response struct {
-	Dial string
+	Dial Dial
 }
 
 type Phone struct {
@@ -39,14 +49,14 @@ func LoadRedirectsFromYAML(path string) (redirects []Redirect) {
 	return
 }
 
-func FindCabForTwilio(redirects []Redirect, twilio string) (string, error) {
+func FindRedirectForTwilio(redirects []Redirect, twilio string) (Redirect, error) {
 	for _, redirect := range redirects {
 		if redirect.Twilio == twilio {
-			return redirect.Cab, nil
+			return redirect, nil
 		}
 	}
 
-	return "", errors.New("Redirect not found")
+	return Redirect{}, errors.New("Redirect not found")
 }
 
 func FindTwilioForID(redirects []Redirect, id string) (string, error) {
@@ -59,9 +69,14 @@ func FindTwilioForID(redirects []Redirect, id string) (string, error) {
 	return "", errors.New("Redirect not found")
 }
 
-func GenerateResponseXMLFor(to string) []byte {
+func GenerateResponseXMLFor(redirect Redirect) []byte {
 	response := &Response{
-		Dial: to,
+		Dial: Dial{
+			Number: Number{
+				Number:    redirect.Cab,
+				Extension: redirect.CabExtension,
+			},
+		},
 	}
 
 	responseXML, err := xml.MarshalIndent(response, "", "    ")

@@ -8,12 +8,24 @@ import (
 	"testing"
 )
 
-var responseXML = `
+var responseXML = []string{
+	`
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Dial>789</Dial>
+    <Dial>
+        <Number>789</Number>
+    </Dial>
 </Response>
-`
+	`,
+	`
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Dial>
+        <Number sendDigits="100">789</Number>
+    </Dial>
+</Response>
+	`,
+}
 
 var responseJSON = []byte(`
 {
@@ -29,8 +41,8 @@ func TestLoadRedirectsFromYAML(t *testing.T) {
 
 	redirects = LoadRedirectsFromYAML("fixtures/redirects.yaml")
 
-	if len(redirects) != 1 {
-		t.Error("Should return a slice of 1 Redirect")
+	if len(redirects) != 2 {
+		t.Error("Should return a slice of 2 Redirects")
 	}
 
 	redirect = redirects[0]
@@ -46,20 +58,30 @@ func TestLoadRedirectsFromYAML(t *testing.T) {
 	if redirect.Cab != "789" {
 		t.Error("Cab should be set")
 	}
+
+	if redirect.CabExtension != "" {
+		t.Error("CabExtension should not be set")
+	}
+
+	redirectWithExtension := redirects[1]
+
+	if redirectWithExtension.CabExtension != "100" {
+		t.Error("CabExtension should be set")
+	}
 }
 
-func TestFindCabForTwilio(t *testing.T) {
+func TestFindRedirectForTwilio(t *testing.T) {
 	redirects := LoadRedirectsFromYAML("fixtures/redirects.yaml")
 
-	if _, err := FindCabForTwilio(redirects, "456"); err != nil {
+	if _, err := FindRedirectForTwilio(redirects, "456"); err != nil {
 		t.Error("Should not return an error for valid Twilio number")
 	}
 
-	if redirect, _ := FindCabForTwilio(redirects, "456"); redirect != "789" {
-		t.Error("Should return CAB number for valid Twilio number")
+	if redirect, _ := FindRedirectForTwilio(redirects, "456"); redirect != redirects[0] {
+		t.Error("Should return Redirect for valid Twilio number")
 	}
 
-	if _, err := FindCabForTwilio(redirects, "999"); err == nil {
+	if _, err := FindRedirectForTwilio(redirects, "999"); err == nil {
 		t.Error("Should return an error for invalid Twilio number")
 	}
 }
@@ -81,11 +103,18 @@ func TestFindTwilioForID(t *testing.T) {
 }
 
 func TestGenerateResponseXMLFor(t *testing.T) {
-	expected := []byte(strings.TrimSpace(responseXML))
-	result := GenerateResponseXMLFor("789")
+	redirects := []Redirect{
+		{Cab: "789"},
+		{Cab: "789", CabExtension: "100"},
+	}
 
-	if !bytes.Equal(expected, result) {
-		t.Error(fmt.Sprintf("Expected:\n%s\n\nGot:\n%s\n", expected, result))
+	for i := 0; i <= len(responseXML)-1; i++ {
+		expected := []byte(strings.TrimSpace(responseXML[i]))
+		result := GenerateResponseXMLFor(redirects[i])
+
+		if !bytes.Equal(expected, result) {
+			t.Error(fmt.Sprintf("Expected:\n%s\n\nGot:\n%s\n", expected, result))
+		}
 	}
 }
 
