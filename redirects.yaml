@@ -352,6 +352,110 @@
   id: 4e9842bc-7b3a-44c8-bb54-b8cd1bd9fe3e
   twilio: +441315101126
   cab: +441569766578
+- # Largs
+  id: f44b84db-4705-4cb4-87d0-7ec560835b70
+  twilio: +441294441637
+  cab: +441294608147
+- # Lewis
+  id: 88905b48-61ad-4c8c-b811-c4c2cdb117e5
+  twilio: +441851607006
+  cab: +441851705727
+- # Lochaber
+  id: d8d31ec5-9a49-4f2a-8f15-2290225c51f3
+  twilio: +441397313019
+  cab: +441397705311
+- # Moray
+  id: 25d212ed-7d96-457b-a2fc-14a55bd312d3
+  twilio: +441343590023
+  cab: +441343550088
+- # Motherwell & Wishaw
+  id: 818bda02-543c-4a8f-9eb4-69178e787596
+  twilio: +441698535575
+  cab: +441698265349
+- # Musselburgh
+  id: 1e2f4e66-20be-4852-9911-11b94144dbce
+  twilio: +441315101781
+  cab: +441316532748
+- # Nairn
+  id: 2924c6b3-f4b6-408c-ace2-084437a9943f
+  twilio: +441667502011
+  cab: +441667456677
+- # North and West Sutherland
+  id: 1e1d1b46-fe65-4131-8512-8df2c68b920e
+  twilio: +441971915471
+  cab: +441971521730
+- # Orkney
+  id: d224e094-11ec-4949-b613-135d53035c56
+  twilio: +441856528516
+  cab: +441856875266
+- # Peebles
+  id: 3f963bc4-9b22-4d51-8fa8-ddc36d987c77
+  twilio: +441721272011
+  cab: +441721721722
+- # Penicuik
+  id: 3de41c57-6fec-45f4-acc9-8610eca1de3a
+  twilio: +441968707005
+  cab: +441968675259
+- # Perth
+  id: 70710524-824d-4e22-a2c1-c0a0c94ba79d
+  twilio: +441738501489
+  cab: +441738450596
+- # Renfrewshire
+  id: a0256c3a-6a60-4acd-b2dd-8b339c8ed75a
+  twilio: +441412801664
+  cab: +441413757328
+- # Alness
+  id: 982a0299-3f39-45f9-abc3-61ce0add30b6
+  twilio: +441349800012
+  cab: +441349883333
+- # Roxburgh and Berwickshire
+  id: 76557407-0fb2-4b94-a6a8-67f6e34d207e
+  twilio: +441450825029
+  cab: +441450374266
+- # Cambuslang
+  id: 4ab008a6-72d5-4b36-b683-48eb0c527beb
+  twilio: +441412807243
+  cab: +441416463191
+- # Saltcoats
+  id: 793e1b97-429d-4a6e-806c-ec07f5984211
+  twilio: +441294441636
+  cab: +441294608147
+- # Shetland Islands
+  id: 1f82d904-a323-4af5-83f3-33943141e1d4
+  twilio: +441595922009
+  cab: +441595744596
+- # Skye and Lochalsh
+  id: 7007f2be-d1c0-4dbe-a6fe-737b8d2e8bd0
+  twilio: +441478272052
+  cab: +441478612032
+- # South West Aberdeenshire
+  id: 3530de46-c1a3-4b9b-99f1-51d3878068bb
+  twilio: +441224515337
+  cab: +441224747714
+- # Stirling
+  id: d566c947-1b34-4b89-b55a-6d5aaff8385a
+  twilio: +441786239973
+  cab: +441786470239
+- # Stranraer
+  id: ced01a69-7a4d-4bac-a6b5-28c1c5c31679
+  twilio: +441315103518
+  cab: +443003034321
+- # Turriff
+  id: 562f5626-5e9d-43bf-86de-cca89ecb310e
+  twilio: +441888530786
+  cab: +441888562495
+- # Uist
+  id: b88818f2-3ab9-4a04-a51a-e416a1af0ad3
+  twilio: +441870472005
+  cab: +441870602421
+- # Dumbarton
+  id: 14d99fda-8707-4543-94dc-737fad7d8a1e
+  twilio: +441389310740
+  cab: +441389744693
+- # Clydebank
+  id: 1309ee8b-c6a1-4277-bc12-a96c5b8fca79
+  twilio: +441389310744
+  cab: +441389744693
 #
 # CITA
 #
