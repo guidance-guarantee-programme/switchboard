@@ -97,6 +97,21 @@
   id: ead14905-96be-4032-bdf5-2e076efb27bc
   twilio: +441236222069
   cab: +441236754109
+- # Arbroath
+  id: c55496a1-2c34-4ddb-a2e7-5e18367ce256
+  twilio: +441241797035
+  cab: +441241870661
+  cab_ext: 25
+- # Forfar
+  id: 0e57a050-bd51-42f7-bedf-65df38b8e26e
+  twilio: +441241797030
+  cab: +441241870661
+  cab_ext: 25
+- # Montrose
+  id: 18bfeb4e-3b8b-4dd6-adc6-5351ec54ef71
+  twilio: +441241797050
+  cab: +441241870661
+  cab_ext: 25
 - # Annan
   id: 37516769-0325-430d-a7f6-e40f4ebd8e10
   twilio: +441315101321
