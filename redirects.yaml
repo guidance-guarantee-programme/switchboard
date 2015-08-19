@@ -1335,7 +1335,7 @@
   id: 19277d66-e95b-44f5-80d9-ae2cf9dc3739
   twilio: +441303764412
   cab: +441622756989
-- # Gillingham
+- # Medway
   id: 152315ed-65dd-46a2-9a6c-35017d2027c2
   twilio: +441634540214
   cab: +441622756989
@@ -1399,7 +1399,7 @@
   id: 4cb07f7f-32f0-42ca-bd7a-dfca7488ae6b
   twilio: +441618503267
   cab: +441618302070
-- # Sale
+- # Sale (Trafford)
   id: 66ae06cd-9cfe-426a-b088-07071e51323f
   twilio: +441618503533
   cab: +441618302070
@@ -1530,7 +1530,7 @@
 - # Pembroke Dock
   id: beb75452-1762-4aa5-aa71-cf255a18f88e
   twilio: +442920099820
-  cab: +447931998203
+  cab: +441646621884
 - # Haverfordwest
   id: 52747945-8f8a-4766-b397-e19f765a58db
   twilio: +441437957412
@@ -1927,11 +1927,11 @@
   id: 7efc0d02-9d77-4648-b284-0489e02f6884
   twilio: +441285700100
   cab: +441722580052
-- # Wolverhampton (Bilston)
+- # Wolverhampton City Centre
   id: 12481dc1-e871-4f64-9a3f-5ca3ac58c1a1
   twilio: +441902504201
   cab: +441902572048
-- # Wolverhampton City Centre
+- # Wolverhampton (Bilston)
   id: 2044b7e6-c819-43a8-8c3f-f239c9a28aa6
   twilio: +441902504319
   cab: +441902572048
@@ -1955,7 +1955,7 @@
   id: 63036131-1109-41b0-93af-3a0b600b176b
   twilio: +441922214306
   cab: +441902572048
-- # Worcester (The Hopmarket)
+- # Worcester (Lowesmoor)
   id: dfad96fe-c421-4ffe-8aa8-5061b2c26195
   twilio: +441905703024
   cab: +441905721892
