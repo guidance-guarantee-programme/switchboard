@@ -116,6 +116,14 @@
   id: 37516769-0325-430d-a7f6-e40f4ebd8e10
   twilio: +441315101321
   cab: +443003034321
+- # Lochgilphead
+  id: e50a0813-d8bc-422b-b0f0-0850992f5ba4
+  twilio: +441315103475
+  cab: +448456123808
+- # Helensburgh
+  id: 7546ac30-5cba-4329-b49d-6ef30506731c
+  twilio: +441315104676
+  cab: +448456123808
 - # Arran
   id: b5dd79cd-6b49-4f97-8c70-8106a8fd6212
   twilio: +441294588049
