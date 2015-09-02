@@ -164,9 +164,13 @@
   id: 4239eda5-25d5-46a9-90c1-b03fd21abc35
   twilio: +441592323063
   cab: +443451400095
+- # Cupar - DELETE
+  id: 49f8f6d5-0274-474f-829d-84f92673f235-delete
+  twilio: +441315101347
+  cab: +443451400095
 - # Cupar
   id: 49f8f6d5-0274-474f-829d-84f92673f235
-  twilio: +441315101347
+  twilio: +441592808996
   cab: +443451400095
 - # Dunfermline - DELETE
   id: 771a583e-05b3-4ddd-9013-b6697349f24f-delete
