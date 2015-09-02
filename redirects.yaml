@@ -176,9 +176,13 @@
   id: 771a583e-05b3-4ddd-9013-b6697349f24f
   twilio: +441592323043
   cab: +443451400095
+- # Glenrothes - DELETE
+  id: 3f34a89b-b08e-485c-9146-4c92169dfe7b-delete
+  twilio: +441315103527
+  cab: +443451400095
 - # Glenrothes
   id: 3f34a89b-b08e-485c-9146-4c92169dfe7b
-  twilio: +441315103527
+  twilio: +441592808992
   cab: +443451400095
 - # Kirkcaldy - DELETE
   id: 8fcccbd5-1f34-4f89-9b7f-adaf4417b549-delete
