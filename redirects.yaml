@@ -156,9 +156,13 @@
   id: ca04da6b-850f-4035-9c4c-b4f973f70980
   twilio: +441896242025
   cab: +441896753889
+- # Cowdenbeath - DELETE
+  id: 4239eda5-25d5-46a9-90c1-b03fd21abc35-delete
+  twilio: +441315103510
+  cab: +443451400095
 - # Cowdenbeath
   id: 4239eda5-25d5-46a9-90c1-b03fd21abc35
-  twilio: +441315103510
+  twilio: +441592323063
   cab: +443451400095
 - # Cupar
   id: 49f8f6d5-0274-474f-829d-84f92673f235
