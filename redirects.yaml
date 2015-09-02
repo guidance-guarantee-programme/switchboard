@@ -134,6 +134,10 @@
   cab: +441698748615
 - # Thurso
   id: 7d04db02-c5c5-4161-8b7b-5929ae2046f5
+  twilio: +441847637004
+  cab: +441847894243
+- # Thurso - DELETE
+  id: 7d04db02-c5c5-4161-8b7b-5929ae2046f5-delete
   twilio: +441315101365
   cab: +441847894243
 - # Wick
