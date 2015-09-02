@@ -142,6 +142,10 @@
   cab: +441847894243
 - # Wick
   id: 1f6334a9-3f52-4ddd-9e60-c46fe05eddcc
+  twilio: +441955950179
+  cab: +441955605989
+- # Wick - DELETE
+  id: 1f6334a9-3f52-4ddd-9e60-c46fe05eddcc-delete
   twilio: +441315101385
   cab: +441955605989
 - # Castle Douglas
