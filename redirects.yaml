@@ -2039,3 +2039,14 @@
   id: 15fd41b2-439a-448a-b775-b2b61e16d4bb
   twilio: +442033897760
   cab: +442084381240
+#
+# Video promo experiment
+#
+- # Show video
+  id: WtblVh6mT5eHmQY7QPWtOgA
+  twilio: +448008021074
+  cab: +443003301001
+- # Hide video
+  id: WtblVh6mT5eHmQY7QPWtOgB
+  twilio: +448008021064
+  cab: +443003301001
