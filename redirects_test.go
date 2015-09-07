@@ -8,8 +8,8 @@ import (
 	"testing"
 )
 
-var responseXML = []string{
-	`
+var redirectXMLResponses = map[Redirect]string{
+	Redirect{Cab: "789"}: `
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
     <Dial>
@@ -17,7 +17,7 @@ var responseXML = []string{
     </Dial>
 </Response>
 	`,
-	`
+	Redirect{Cab: "789", CabExtension: "100"}: `
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
     <Dial>
@@ -103,14 +103,9 @@ func TestFindTwilioForID(t *testing.T) {
 }
 
 func TestGenerateResponseXMLFor(t *testing.T) {
-	redirects := []Redirect{
-		{Cab: "789"},
-		{Cab: "789", CabExtension: "100"},
-	}
-
-	for i := 0; i <= len(responseXML)-1; i++ {
-		expected := []byte(strings.TrimSpace(responseXML[i]))
-		result := GenerateResponseXMLFor(redirects[i])
+	for redirect, response := range redirectXMLResponses {
+		expected := []byte(strings.TrimSpace(response))
+		result := GenerateResponseXMLFor(redirect)
 
 		if !bytes.Equal(expected, result) {
 			t.Error(fmt.Sprintf("Expected:\n%s\n\nGot:\n%s\n", expected, result))
