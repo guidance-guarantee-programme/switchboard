@@ -231,7 +231,7 @@
 - # Clackmannanshire
   id: e00ab932-4160-455d-a487-a8aaa1a49696
   twilio: +441259404052
-  cab: +441259219404
+  cab: +441259404052
 - # Clydesdale
   id: db91f640-c85f-4c97-8493-16fb5e0a0e34
   twilio: +441555242049
@@ -287,7 +287,7 @@
 - # Golspie
   id: ccc73c1c-426f-437d-9b2d-e91239891b77
   twilio: +441408955040
-  cab: +441408634410
+  cab: +441408633000
 - # Falkirk
   id: 5d96aacc-9340-4d44-8273-c4a831ff0d31
   twilio: +441324430080
@@ -351,15 +351,15 @@
 - # Aviemore
   id: 69924b24-044f-49ea-bca5-306b23e60531
   twilio: +441479722029
-  cab: +441479810919
+  cab: +441463237664
 - # Grantown-on-Spey
   id: 5ecf97f4-29f6-4173-97ab-faa2ac9cdbcc
   twilio: +441479722028
-  cab: +441479810919
+  cab: +441463237664
 - # Inverness (Raigmore Hospital)
   id: cd256fe7-9378-49c8-9abc-7e00d5eac221
   twilio: +441463630043
-  cab: +441463706014
+  cab: +441463237664
 - # Irvine
   id: 7ba7fee9-280e-4033-8d67-b3809ea428ea
   twilio: +441294588031
@@ -443,7 +443,7 @@
 - # Shetland Islands
   id: 1f82d904-a323-4af5-83f3-33943141e1d4
   twilio: +441595922009
-  cab: +441595744596
+  cab: +441595694696
 - # Skye and Lochalsh
   id: 7007f2be-d1c0-4dbe-a6fe-737b8d2e8bd0
   twilio: +441478272052
