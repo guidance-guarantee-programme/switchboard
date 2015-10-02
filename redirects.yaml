@@ -136,17 +136,9 @@
   id: 7d04db02-c5c5-4161-8b7b-5929ae2046f5
   twilio: +441847637004
   cab: +441847894243
-- # Thurso - DELETE
-  id: 7d04db02-c5c5-4161-8b7b-5929ae2046f5-delete
-  twilio: +441315101365
-  cab: +441847894243
 - # Wick
   id: 1f6334a9-3f52-4ddd-9e60-c46fe05eddcc
   twilio: +441955950179
-  cab: +441955605989
-- # Wick - DELETE
-  id: 1f6334a9-3f52-4ddd-9e60-c46fe05eddcc-delete
-  twilio: +441315101385
   cab: +441955605989
 - # Castle Douglas
   id: 05e60f20-5601-47a8-b183-e6c76f532a21
@@ -156,49 +148,25 @@
   id: ca04da6b-850f-4035-9c4c-b4f973f70980
   twilio: +441896242025
   cab: +441896753889
-- # Cowdenbeath - DELETE
-  id: 4239eda5-25d5-46a9-90c1-b03fd21abc35-delete
-  twilio: +441315103510
-  cab: +443451400095
 - # Cowdenbeath
   id: 4239eda5-25d5-46a9-90c1-b03fd21abc35
   twilio: +441592323063
-  cab: +443451400095
-- # Cupar - DELETE
-  id: 49f8f6d5-0274-474f-829d-84f92673f235-delete
-  twilio: +441315101347
   cab: +443451400095
 - # Cupar
   id: 49f8f6d5-0274-474f-829d-84f92673f235
   twilio: +441592808996
   cab: +443451400095
-- # Dunfermline - DELETE
-  id: 771a583e-05b3-4ddd-9013-b6697349f24f-delete
-  twilio: +441315103656
-  cab: +443451400095
 - # Dunfermline
   id: 771a583e-05b3-4ddd-9013-b6697349f24f
   twilio: +441592323043
-  cab: +443451400095
-- # Glenrothes - DELETE
-  id: 3f34a89b-b08e-485c-9146-4c92169dfe7b-delete
-  twilio: +441315103527
   cab: +443451400095
 - # Glenrothes
   id: 3f34a89b-b08e-485c-9146-4c92169dfe7b
   twilio: +441592808992
   cab: +443451400095
-- # Kirkcaldy - DELETE
-  id: 8fcccbd5-1f34-4f89-9b7f-adaf4417b549-delete
-  twilio: +441315101414
-  cab: +443451400095
 - # Kirkcaldy
   id: 8fcccbd5-1f34-4f89-9b7f-adaf4417b549
   twilio: +441592808997
-  cab: +443451400095
-- # Leven - DELETE
-  id: 692be951-f991-4e1a-b8dc-7313b60e10e9-delete
-  twilio: +441315101284
   cab: +443451400095
 - # Leven
   id: 692be951-f991-4e1a-b8dc-7313b60e10e9
@@ -499,26 +467,14 @@
   id: ec825112-a3df-4c7d-9a07-460a35b57f5a
   twilio: +441900511986
   cab: +44190068981
-- # Wigton - DELETE
-  id: bcde02c9-af94-4cc1-9f7c-596e4db90e51
-  twilio: +441697920483
-  cab: +443003301001
 - # Keswick
   id: 91b4cc16-86c7-4ca3-a8d0-874fb91a2d3d
   twilio: +441768800718
   cab: +44190068981
-- # Carlisle - DELETE
-  id: 8fdecc12-8ae8-4367-8ead-f3ae6dfdc948
-  twilio: +441228830145
-  cab: +443003301001
 - # Kendal
   id: f3203061-606e-4c52-9191-703f96dcf900
   twilio: +441539587854
   cab: +44190068981
-- # Maryport - DELETE
-  id: eaedfe56-3f5a-4e07-8813-a04d5285738a
-  twilio: +441900511983
-  cab: +443003301001
 - # Bognor Regis
   id: 4c1c3978-ffad-4a47-97ba-210e6eb8857f
   twilio: +441243200084
@@ -559,10 +515,6 @@
   id: 25d21505-bfeb-4539-b3df-250eb7628b1d
   twilio: +441202237556
   cab: +441202203661
-- # Kinson - DELETE
-  id: 471be5a2-88c4-4a8f-9c95-ab92bc44d1b8
-  twilio: +441202237470
-  cab: +443003301001
 - # Bridport and District
   id: db8ae1d6-2d21-4fc2-86a6-478f055fe7a1
   twilio: +441308802021
@@ -691,10 +643,6 @@
   id: 674d3fc4-efe5-43e2-a5a6-56cdd60e3653
   twilio: +441268833124
   cab: +441245205567
-- # Braintree - DELETE
-  id: f635bf01-1965-4e60-8f32-6b35336b5d37
-  twilio: +441376350072
-  cab: +443003301001
 - # Witham
   id: a472c45f-7f17-4f9c-b777-1c2b73067dd0
   twilio: +441376311055
@@ -719,10 +667,6 @@
   id: f8c6f23c-0f24-4098-95a5-3cdccea9d663
   twilio: +441279702198
   cab: +441245205567
-- # Loughton - DELETE
-  id: ac3588f2-64f4-4fe8-9d93-7ec70fd57cce
-  twilio: +442033897250
-  cab: +443003301001
 - # Maldon and District
   id: f35370c2-f0fb-42ce-a61c-e740fcd53769
   twilio: +441621735740
@@ -783,10 +727,6 @@
   id: 7b3b976c-7f2f-4f8e-9a18-1ec43ff06518
   twilio: +441513292213
   cab: +441606596399
-- # Rock Ferry - DELETE
-  id: 41f19b19-246c-411a-9802-7f728a4d5b4c
-  twilio: +441513290114
-  cab: +443003301001
 - # Wallasey
   id: b74d759c-b95d-4570-b6b6-08b8776fbcf7
   twilio: +441513292967
@@ -863,10 +803,6 @@
   id: 54d67dd8-0e82-45f3-a27e-491a343ae04a
   twilio: +441788422082
   cab: +442476252621
-- # Northfield - DELETE
-  id: 6b05e6e5-c4b0-4e8f-8d8d-cdecf1afe783
-  twilio: +441212851899
-  cab: +443003301001
 - # Tyseley
   id: 4a0ee3d5-349c-4dc5-b1f5-a268e8fbfb4b
   twilio: +441212852081
@@ -1067,30 +1003,14 @@
   id: f47c08e1-9322-4730-9059-c3aa97f49cf4
   twilio: +441323700095
   cab: +441424452700
-- # Crowborough - DELETE
-  id: fda4b4de-190c-48b9-8c45-f6cae0b40161
-  twilio: +441892800213
-  cab: +443003301001
-- # Hailsham - DELETE
-  id: 42c01a04-bf6a-4744-91b4-1662c19185fe
-  twilio: +441323700129
-  cab: +443003301001
 - # Uckfield
   id: 7c00741c-0f7c-436d-ad27-1a503693192e
   twilio: +441825701469
   cab: +441424452700
-- # Bexhill - DELETE
-  id: 2ef1ef69-a5df-4102-84fe-14b2c6d8bc80
-  twilio: +441424400207
-  cab: +443003301001
 - # Eastbourne
   id: 04893a8d-d145-4b62-aaee-7db8d7106a12
   twilio: +441323700098
   cab: +441424452700
-- # Brighton & Hove - DELETE
-  id: 080fcab3-dfca-4759-81cb-4aeccc7a68ad
-  twilio: +441273917067
-  cab: +443003301001
 - # High Wycombe & District
   id: f2ca5441-6a04-4984-9b7a-8106e48dacdf
   twilio: +441494419334
@@ -1119,10 +1039,6 @@
   id: 18dd46fc-dbd5-4e61-950d-60238ef74069
   twilio: +441442800053
   cab: +441494533330
-- # Abbots Langley - DELETE
-  id: 73848c29-7e6c-4716-8118-dc4d3976aacf
-  twilio: +441923750186
-  cab: +443003301001
 - # Watford
   id: 37c7c022-8215-4afc-b99e-77f541f5c5b8
   twilio: +441923750925
@@ -1199,14 +1115,6 @@
   id: de610217-c5da-41c7-b847-48f660a1da38
   twilio: +441253530186
   cab: +441772425916
-- # Clitheroe - DELETE
-  id: 8e73b27a-0426-4fee-a39c-6c3b0b2e9d6d
-  twilio: +441200545083
-  cab: +443003301001
-- # Blackburn - DELETE
-  id: 9116c6b2-f5b9-4c8d-8d07-1b9c6c3f2b27
-  twilio: +441254790226
-  cab: +443003301001
 - # Nelson
   id: ae84cd34-8ee1-49da-a5c3-dabc0bc8ad88
   twilio: +441282570149
@@ -1223,10 +1131,6 @@
   id: 9a917b33-cd06-40f3-85c6-4247d78f2a37
   twilio: +441524220063
   cab: +441772425916
-- # Lancaster - DELETE
-  id: cb0f17fa-2763-4177-b696-1708822167fb
-  twilio: +441524220073
-  cab: +443003301001
 - # Ribble Valley
   id: f9ef0657-1bbe-4c64-81b4-686801434117
   twilio: +441200545079
@@ -1259,26 +1163,14 @@
   id: fdcde285-37fd-4858-b00a-4ee31b4488b1
   twilio: +441163260480
   cab: +441163266326
-- # Leicester City Centre - DELETE
-  id: 083f20ea-96e5-428f-9df6-dade3db3e462
-  twilio: +441163261053
-  cab: +443003301001
 - # Coalville
   id: 422053c7-d42b-439d-8a61-e51ce33b49f8
   twilio: +441530446601
   cab: +441163266326
-- # Hinckley - DELETE
-  id: c22ba121-89d3-4180-a5e2-10dabf578ecf
-  twilio: +441455560081
-  cab: +443003301001
 - # Lutterworth
   id: 73a17511-8f2f-4753-bf3b-d7fb9fc7ad3e
   twilio: +441455560163
   cab: +441163266326
-- # Melton Mowbray - DELETE
-  id: 5516efa6-9b57-4537-aad1-a9bb8d25ca6d
-  twilio: +441664400036
-  cab: +443003301001
 - # South Wigston
   id: 0e7f62f8-20c8-47db-8cdd-a05303fe3e24
   twilio: +441163261108
@@ -1287,10 +1179,6 @@
   id: b7845e3e-ced9-4464-91c9-39150958e319
   twilio: +441509323162
   cab: +441163266326
-- # Rutland - DELETE
-  id: 81cae85b-3b03-4c5a-a83b-1327741c596a
-  twilio: +441572842056
-  cab: +443003301001
 - # Lincoln & District
   id: 88aac83b-2bec-409d-ad0e-21fc81398d6c
   twilio: +441522246092
@@ -1307,10 +1195,6 @@
   id: 9e25f956-f8b2-47c5-9925-654e6e9bfc31
   twilio: +441754800475
   cab: +441522828617
-- # West Lindsey - DELETE
-  id: 494a0512-0913-4d19-b4d9-899580590be4
-  twilio: +441427700051
-  cab: +443003301001
 - # Sleaford
   id: 9ebfb9ed-ef7e-4f66-82b9-522e1d7bbd35
   twilio: +441529572016
@@ -1327,10 +1211,6 @@
   id: 06bd7d95-480d-4827-b241-07d3450c30e9
   twilio: +441780322026
   cab: +441522828617
-- # Newark - DELETE
-  id: 78c3e882-4672-431e-a01b-d4dabf13a714
-  twilio: +441623272106
-  cab: +443003301001
 - # Worksop
   id: 2c5f6936-fcac-45c2-9143-72368351e2fe
   twilio: +441909494223
@@ -1427,14 +1307,6 @@
   id: 2fd87784-c67f-44dc-87f0-615412a731f0
   twilio: +441618504609
   cab: +441618302070
-- # Altrincham - DELETE
-  id: d4c10570-1462-438d-848c-bf8095d311f8
-  twilio: +441618503409
-  cab: +443003301001
-- # Partington - DELETE
-  id: 4cb07f7f-32f0-42ca-bd7a-dfca7488ae6b
-  twilio: +441618503267
-  cab: +443003301001
 - # Sale (Trafford)
   id: 66ae06cd-9cfe-426a-b088-07071e51323f
   twilio: +441618503533
@@ -1907,10 +1779,6 @@
   id: 0337ef4d-0076-48c6-a588-98e5ca5b91dd
   twilio: +441204238277
   cab: +441942267965
-- # Prestwich - DELETE
-  id: 131c5bb0-ee6a-44d5-8327-1f46832ef30d
-  twilio: +441618503396
-  cab: +443003301001
 - # Radclife
   id: 5498e303-7afb-4961-99a0-9d56c66f7812
   twilio: +441618504406
@@ -1943,10 +1811,6 @@
   id: 7a685e35-84e4-4db6-abaa-f83f8cafd8d8
   twilio: +441454800868
   cab: +441722580052
-- # Stroud - DELETE
-  id: e42812db-97c9-47d8-9aa7-042522690106
-  twilio: +441453488042
-  cab: +443003301001
 - # Dursley
   id: e82acef5-154c-4fc9-ba0b-be00ca074d08
   twilio: +441453488047
@@ -1983,10 +1847,6 @@
   id: a15a8536-74ac-4122-93a3-a4ccf9892bfc
   twilio: +441384686173
   cab: +441902572048
-- # Kingstanding - DELETE
-  id: a8fc8bcc-db7c-4d4e-9c67-5e33a5e4da4a
-  twilio: +441212857497
-  cab: +443003301001
 - # Walsall
   id: 63036131-1109-41b0-93af-3a0b600b176b
   twilio: +441922214306
@@ -1995,10 +1855,6 @@
   id: dfad96fe-c421-4ffe-8aa8-5061b2c26195
   twilio: +441905703024
   cab: +441905721892
-- # Worcester (Lowesmoor) - DELETE
-  id: 67d7c36f-59a3-4dc0-ac22-0ae7e7ea7a9c
-  twilio: +441905700036
-  cab: +443003301001
 - # Hereford
   id: d94d988f-2ef7-4796-8696-b45bcaa492bc
   twilio: +441432233050
@@ -2011,10 +1867,6 @@
   id: c3dcaac8-ce2e-40ee-9bb7-fddae7879fbb
   twilio: +441684218744
   cab: +441905721892
-- # Wychavon - DELETE
-  id: 444dca78-9dad-4b50-a3b3-45a3ded20718
-  twilio: +441386570750
-  cab: +443003301001
 - # Bromsgrove
   id: 18304c59-bb08-4f4a-b161-4d0eb8169fe5
   twilio: +441527962154
