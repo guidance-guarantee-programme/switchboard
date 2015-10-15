@@ -627,10 +627,10 @@
   id: a76f84ed-f704-412b-9fb1-e90d95d528cf
   twilio: +441656339847
   cab: +441446704998
-- # Cardiff
+- # Cardiff - DELETE
   id: 492b2665-2f58-48bf-bd55-da85ae5ffa5e
   twilio: +442920098259
-  cab: +441446704998
+  cab: +443003301001
 - # Cardigan
   id: 18ef0b7d-b13a-4284-9765-aa888aa4ba09
   twilio: +441239803396
@@ -1554,7 +1554,7 @@
 - # Sheffield (Bawtry Road) - DELETE
   id: 95cf8ffb-5b42-4b92-a5bf-63daef3d7e49
   twilio: +441143031159
-  cab: +441142536706
+  cab: +443003301001
 - # Sheffield (Chapel Street, Woodhouse)
   id: 54be01f2-44fc-435c-a6ca-48a43a95f78d
   twilio: +441143030468
@@ -2191,14 +2191,14 @@
   id: 0540b4ed-b7dd-48f0-8a2e-011fa19fcedf
   twilio: +441494419277
   cab: +441494533330
-- # Rustington
+- # Rustington - DELETE
   id: b66f9934-87ae-4a96-9d98-066966036f3a
   twilio: +441243200072
-  cab: +441243860516
-- # Arundel
+  cab: +443003301001
+- # Arundel - DELETE
   id: 7f181508-15e1-4675-be60-e83fc4e2d35a
   twilio: +441243200279
-  cab: +441243860516
+  cab: +443003301001
 - # East Wittering
   id: 8ee85e52-8383-4e58-b73f-995e8563c179
   twilio: +441243200377
@@ -2219,10 +2219,10 @@
   id: 068af268-515f-47ba-9ef6-dea129b5413d
   twilio: +441243200364
   cab: +441243860516
-- # Yapton
+- # Yapton - DELETE
   id: e325c150-c0c8-4459-934f-6101731b4e7c
   twilio: +441243200345
-  cab: +441243860516
+  cab: +443003301001
 - # Wallingford
   id: 266ba3bc-768d-4184-a79f-104277e87b08
   twilio: +442033896045
@@ -2391,10 +2391,10 @@
   id: 002654bf-6bf6-47d2-a7c4-15c2ee381aef
   twilio: +441133206485
   cab: +441132816738
-- # Todmorden
+- # Todmorden - DELETE
   id: 6ca431f1-f965-4543-9093-34d042f5863e
   twilio: +441924950539
-  cab: +441924869835
+  cab: +443003301001
 - # Congleton
   id: 672f3b2a-5658-449d-9778-127d2c2c9e35
   twilio: +441606539823
@@ -2475,10 +2475,10 @@
   id: 927fbbef-52da-44fe-978f-0533f1350a05
   twilio: +441902504245
   cab: +44190068981
-- # Leicester City Centre
+- # Leicester City Centre - DELETE
   id: 07c860ca-8cce-44c1-b6e6-1e8407178b92
   twilio: +441163260194
-  cab: +441163266326
+  cab: +443003301001
 #
 # Video promo experiment
 #
