@@ -2479,6 +2479,38 @@
   id: 07c860ca-8cce-44c1-b6e6-1e8407178b92
   twilio: +441163260194
   cab: +443003301001
+- # Haverhill
+  id: 8c3c6d76-fd52-46d6-995b-4fd8505b06c9
+  twilio: +441379770414
+  cab: +441379658205
+- # Newmarket
+  id: 7859d4ae-20f1-4d91-addc-edcaa61fcba6
+  twilio: +441379770415
+  cab: +441379658205
+- # Swansea (Civic Centre)
+  id: 9d855ce9-2b2e-446d-ab60-2dafd996d830
+  twilio: +441686213805
+  cab: +441686617648
+- # Welshpool (Jobcentre Plus)
+  id: b6ee74b7-4562-4fb2-8e9d-cca5d42fe567
+  twilio: +441686807115
+  cab: +441686617648
+- # Llandrindod Wells (Jobcentre Plus)
+  id: 7b6f6842-8a82-4993-ba0c-3b7e080b3e05
+  twilio: +441686807119
+  cab: +441686617648
+- # Brecon (Jobcentre Plus)
+  id: ed6ef0a3-f533-47a2-a214-1cbb71f86081
+  twilio: +441686807118
+  cab: +441686617648
+- # Ystradgynlais (Jobcentre Plus)
+  id: bfaf223d-c88f-4a5a-95ed-ebeadbeb5ffc
+  twilio: +441686807123
+  cab: +441686617648
+- # Machynlleth (Jobcentre Plus)
+  id: 99f19b15-2a16-42bf-b0ae-f8c63c0e9586
+  twilio: +441686807114
+  cab: +441686617648
 #
 # Video promo experiment
 #
