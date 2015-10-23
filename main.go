@@ -28,45 +28,36 @@ func init() {
 }
 
 func TwilioHandler(w http.ResponseWriter, r *http.Request) {
-	var responseCode int
-
 	number := r.FormValue("To")
 
 	if number == "" {
-		responseCode = http.StatusBadRequest
-	} else {
-		redirect, err := FindRedirectForTwilio(redirects, number)
-		if err != nil {
-			responseCode = http.StatusNotFound
-		} else {
-			responseCode = http.StatusOK
-			w.Write(GenerateResponseXMLFor(redirect))
-		}
+		w.WriteHeader(http.StatusBadRequest)
+		return
 	}
 
-	w.WriteHeader(responseCode)
+	redirect, err := FindRedirectForTwilio(redirects, number)
+	if err != nil {
+		w.WriteHeader(http.StatusNotFound)
+	} else {
+		w.Write(GenerateResponseXMLFor(redirect))
+	}
 }
 
 func LookupHandler(w http.ResponseWriter, r *http.Request) {
-	var responseCode int
-
-	w.Header().Set("Content-Type", "application/json")
-
 	id := strings.TrimPrefix(r.URL.Path, "/lookup/")
 
 	if id == "" {
-		responseCode = http.StatusBadRequest
-	} else {
-		redirectTo, err := FindTwilioForID(redirects, id)
-		if err != nil {
-			responseCode = http.StatusNotFound
-		} else {
-			responseCode = http.StatusOK
-			w.Write(GenerateResponseJSONFor(redirectTo))
-		}
+		w.WriteHeader(http.StatusBadRequest)
+		return
 	}
 
-	w.WriteHeader(responseCode)
+	redirectTo, err := FindTwilioForID(redirects, id)
+	if err != nil {
+		w.WriteHeader(http.StatusNotFound)
+	} else {
+		w.Header().Set("Content-Type", "application/json")
+		w.Write(GenerateResponseJSONFor(redirectTo))
+	}
 }
 
 func main() {
