@@ -45,8 +45,6 @@ func TwilioHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	w.WriteHeader(responseCode)
-
-	fmt.Printf("%s %s %d\n", r.Method, r.URL.Path, responseCode)
 }
 
 func LookupHandler(w http.ResponseWriter, r *http.Request) {
@@ -69,8 +67,6 @@ func LookupHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	w.WriteHeader(responseCode)
-
-	fmt.Printf("%s %s %d\n", r.Method, r.URL.Path, responseCode)
 }
 
 func main() {
@@ -79,8 +75,8 @@ func main() {
 	http.HandleFunc("/twilio", TwilioHandler)
 	http.HandleFunc("/lookup/", LookupHandler)
 
-	err := http.ListenAndServe(fmt.Sprintf(":%d", port), bugsnag.Handler(nil))
-	if err != nil {
+	handler := NewLoggingMiddleware(bugsnag.Handler(nil))
+	if err := http.ListenAndServe(fmt.Sprintf(":%d", port), handler); err != nil {
 		panic("Error starting!")
 	}
 }
