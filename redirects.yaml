@@ -2483,6 +2483,14 @@
   id: 99f19b15-2a16-42bf-b0ae-f8c63c0e9586
   twilio: +441686807114
   cab: +441686617648
+- # Altrincham Library
+  id: 872068bf-f521-4b3b-a7b5-dd834422854e
+  twilio: +441618507674
+  cab: +441618302070
+- # Bristol (Broad Street)
+  id: 94e94f50-1d30-49f0-8959-b2a799ba3423
+  twilio: +441722580079
+  cab: +441722580052
 #
 # Video promo experiment
 #
