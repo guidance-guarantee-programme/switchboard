@@ -2502,3 +2502,9 @@
   id: WtblVh6mT5eHmQY7QPWtOgB
   twilio: +448008021064
   cab: +443003301001
+#
+# 50+ magazine experiment
+#
+- id: WtblVh6mT5eHmQY7QPWtOgC
+  twilio: +448000119029
+  cab: +443003301001
