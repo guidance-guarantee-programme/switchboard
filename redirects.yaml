@@ -495,10 +495,6 @@
   id: 209b2f4d-5696-46ab-a4ec-65839acd0744
   twilio: +441329800058
   cab: +441243860516
-- # Gosport
-  id: 9dafd553-6506-4022-95ae-5ca483cf82ab
-  twilio: +442033897559
-  cab: +441243860516
 - # Lancing
   id: 2e3e2961-fe75-4cc3-88e1-78f48fb399aa
   twilio: +441903680183
@@ -735,10 +731,6 @@
   id: 665bc19a-26d2-4f60-96ed-98e00c59fe1c
   twilio: +441925321862
   cab: +441606596399
-- # Lymm
-  id: fbb287da-d359-42f5-956b-a97a0214a892
-  twilio: +441925320209
-  cab: +441606596399
 - # Warrington
   id: 21ff5ffb-731e-45fe-8745-6e572d0fa2ea
   twilio: +441925320132
@@ -795,14 +787,6 @@
   id: 60dc0a9b-64dc-4893-ad65-2e9f3586f0b2
   twilio: +442476100196
   cab: +442476252621
-- # Nuneaton
-  id: dd3695d2-e689-4304-93ed-f88cc816d5ff
-  twilio: +442476100776
-  cab: +442476252621
-- # Rugby
-  id: 54d67dd8-0e82-45f3-a27e-491a343ae04a
-  twilio: +441788422082
-  cab: +442476252621
 - # Tyseley
   id: 4a0ee3d5-349c-4dc5-b1f5-a268e8fbfb4b
   twilio: +441212852081
@@ -810,10 +794,6 @@
 - # Chelmsley Wood
   id: d163b963-0b56-4e41-b406-c10b9339113e
   twilio: +441212856966
-  cab: +442476252621
-- # Shirley
-  id: c5ccd727-312c-400d-a608-fde2895ada48
-  twilio: +441212851961
   cab: +442476252621
 - # Solihull
   id: 8dfdd038-b67d-4dd5-a4d6-d3c179da5421
@@ -1162,10 +1142,6 @@
 - # Lutterworth
   id: 73a17511-8f2f-4753-bf3b-d7fb9fc7ad3e
   twilio: +441455560163
-  cab: +441163266326
-- # South Wigston
-  id: 0e7f62f8-20c8-47db-8cdd-a05303fe3e24
-  twilio: +441163261108
   cab: +441163266326
 - # Loughborough
   id: b7845e3e-ced9-4464-91c9-39150958e319
@@ -1763,10 +1739,6 @@
   id: 0337ef4d-0076-48c6-a588-98e5ca5b91dd
   twilio: +441204238277
   cab: +441942267965
-- # Radclife
-  id: 5498e303-7afb-4961-99a0-9d56c66f7812
-  twilio: +441618504406
-  cab: +441942267965
 - # Chippenham
   id: b74377da-d06b-48d0-9d74-cc362bbb53b3
   twilio: +441722449935
@@ -2019,10 +1991,6 @@
   id: bb88b1c2-1545-47f9-ab2d-da654ff78317
   twilio: +442476101062
   cab: +442476252621
-- # Warwick
-  id: da3b2e62-4d07-4f86-9849-31ea68c0b005
-  twilio: +442476100996
-  cab: +442476252621
 - # Telford
   id: 589d4b1c-5065-4518-ba2a-eacafdb620a2
   twilio: +441743297055
@@ -2099,10 +2067,6 @@
   id: a41e69cb-ca66-468d-be7a-171849d83e97
   twilio: +441163261762
   cab: +441163266326
-- # Joint Service Shop in Blaby
-  id: 0f290334-7e87-4777-9e14-39c00d0a4ea3
-  twilio: +441163261655
-  cab: +441163266326
 - # Boston
   id: b7c92ff5-c0c8-40de-ae1c-ba4e9c088ebe
   twilio: +441522246105
@@ -2159,10 +2123,10 @@
   id: 0540b4ed-b7dd-48f0-8a2e-011fa19fcedf
   twilio: +441494419277
   cab: +441494533330
-- # Havant
-  id: ff03a764-13c7-4fee-9318-f1bd412b4338
-  twilio: +441243200086
-  cab: +441243860516
+- # East Wittering - DELETE
+  id: 8ee85e52-8383-4e58-b73f-995e8563c179
+  twilio: +441243200377
+  cab: +443003301001
 - # Midhurst
   id: 7aff67d6-4e94-48eb-bca2-f78d01e2cd3e
   twilio: +441243200091
@@ -2263,10 +2227,10 @@
   id: a371284c-681f-4da5-9d4f-c3f6b24620b3
   twilio: +441325527855
   cab: +441325249833
-- # Chester-le-Street
-  id: d6770b66-b9c1-4087-ae29-063c5ffe7d84
-  twilio: +441325952176
-  cab: +441325249833
+- # Newcastle - DELETE
+  id: 20de0291-78da-4f61-9e7d-98a7fbb16772
+  twilio: +441915801484
+  cab: +443003301001
 - # Blyth
   id: 7702f38e-4e9f-42e2-8473-6fb6586d1bcf
   twilio: +441915801224
@@ -2282,10 +2246,6 @@
 - # Withernsea
   id: c75168f6-533a-40fb-b60e-2ca9f2c04c26
   twilio: +441482240421
-  cab: +441482816308
-- # Crowle
-  id: 58ecb7e4-09a4-4d71-9ad1-866a5195ffd1
-  twilio: +441482240207
   cab: +441482816308
 - # Brough
   id: 9c26f0f3-6e92-41e0-bdc4-6e380b933548
