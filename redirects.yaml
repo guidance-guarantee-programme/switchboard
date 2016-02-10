@@ -2267,10 +2267,6 @@
   id: a371284c-681f-4da5-9d4f-c3f6b24620b3
   twilio: +441325527855
   cab: +441325249833
-- # Chester-le-Street
-  id: d6770b66-b9c1-4087-ae29-063c5ffe7d84
-  twilio: +441325952176
-  cab: +441325249833
 - # Newcastle - DELETE
   id: 20de0291-78da-4f61-9e7d-98a7fbb16772
   twilio: +441915801484
@@ -2447,10 +2443,6 @@
   id: dc4e84b0-ab6d-44a3-8090-d633b5ed5313
   twilio: +441625464444
   cab: +441606596399
-- # Peterlee Macmillan Information Centre
-  id: 5b061a57-4095-499e-a63b-26f4585a03ea
-  twilio: +441915005892
-  cab: +441325249833
 - # Bishop Auckland Hospital
   id: 3e5f4f69-56cc-4ff1-bda5-d61ef1592693
   twilio: +441325952232
@@ -2551,10 +2543,6 @@
   id: ee47f0be-6b7a-4eab-a9db-e8fb899787f8
   twilio: +441482429330
   cab: +441482816308
-- # Pendleton Gateway
-  id: c852f819-bce5-4813-a1cb-41bcd833206a
-  twilio: +441942316353
-  cab: +441942267965
 #
 # Video promo experiment
 #
