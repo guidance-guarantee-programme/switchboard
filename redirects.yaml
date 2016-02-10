@@ -50,6 +50,10 @@
   id: 03ca70f3-f76a-4563-a243-571000f80ab4
   twilio: +442895072275
   cab: +442871347047
+- # Derry Water Side
+  id: f8bb224a-242f-4857-8f0f-c43e4833e528
+  twilio: +442871228653
+  cab: +442871342536
 - # Downpatrick
   id: bc0cdad0-7e6c-4aa3-a423-416f56cb26dc
   twilio: +442895072238
