@@ -2439,23 +2439,23 @@
   id: 94e94f50-1d30-49f0-8959-b2a799ba3423
   twilio: +441722580079
   cab: +441722580052
-- # Poyton Civic Hall
+- # Poyton
   id: dc4e84b0-ab6d-44a3-8090-d633b5ed5313
   twilio: +441625464444
   cab: +441606596399
-- # Bishop Auckland Hospital
+- # Bishop Auckland (Hospital)
   id: 3e5f4f69-56cc-4ff1-bda5-d61ef1592693
   twilio: +441325952232
   cab: +441325249833
-- # University Hospital North Durham Hospital
+- # Durham (University Hospital)
   id: bab77727-6757-4396-84e3-0d49dc0aba01
   twilio: +441325527845
   cab: +441325249833
-- # Stockport Library
+- # Stockport (Library)
   id: d7d58f46-acd6-4379-852f-dc426834ac2c
   twilio: +441618504076
   cab: +441618302070
-- # Blackburn Library
+- # Blackburn
   id: a1e0209b-4585-4b26-9a30-aad795424dce
   twilio: +441772367575
   cab: +441772425916
@@ -2467,67 +2467,67 @@
   id: 004a7a00-ea5e-4972-9464-a441698a473e
   twilio: +441772367388
   cab: +441772425916
-- # Preston County Hall
+- # Preston
   id: 2ad27e4a-4ade-4b56-9345-bb8be98f6120
   twilio: +441772367595
   cab: +441772425916
-- # Rothwell One Stop Centre
+- # Rothwell
   id: 8d672421-08e4-48fb-bc6c-b51f340b9e95
   twilio: +441133208373
   cab: +441132816738
-- # Dewsbury Road One Stop Centre
+- # Leeds
   id: dd17d33a-f20a-474a-8d21-5d59b93eb3aa
   twilio: +441133208292
   cab: +441132816738
-- # Cardiff Central Hub
+- # Cardiff Central
   id: edde9cde-41ac-4485-9919-b6d34d79f844
   twilio: +441446506660
   cab: +441446704998
-- # Llandaff North Library
+- # Llandaff North
   id: 2ec343f7-584b-4086-b5c3-e9c4b77922f7
   twilio: +441446506688
   cab: +441446704998
-- # Ammanford Library
+- # Ammanford
   id: 36ab7bd7-87e2-47d6-8ffc-edd7e5264380
   twilio: +441239803399
   cab: +441239621594
-- # Citizens Advice Leicestershire (Wigston)
+- # Wigston
   id: 098a2816-97f3-44a8-9d3e-a2e3c98bfa5e
   twilio: +441163262760
   cab: +441163266326
-- # Wychwood Surgery
+- # Shipton-under-Wychwood
   id: 1f49960f-1864-4f7f-8a75-67500945e0ca
   twilio: +441865900580
   cab: +443003030127
-- # Crowborough Community Centre
+- # Crowborough
   id: 6b9f90cf-5b0c-488e-a805-b0bf9b14ee5f
   twilio: +441424239059
   cab: +441424452700
-- # Forest Row Community Centre
+- # Forest Row
   id: 3cbec3e3-0a9b-4f3a-b966-412efa7c0066
   twilio: +441424400303
   cab: +441424452700
-- # Robertsbridge Hall
+- # Robertsbridge
   id: f62e7baf-0084-41ba-bc72-aceca0dc5b77
   twilio: +441424400421
   cab: +441424452700
-- # The Bloxham Centre
+- # Rugby
   id: 05f43e9f-a77a-4489-8b13-62881e330229
   twilio: +442476101091
   cab: +442476252621
-- # Hatters Space Community Centre
+- # Nuneaton
   id: 17ba2afa-fd6c-4292-8276-804e07df62eb
   twilio: +442476100875
   cab: +442476252621
-- # Citizens Advice Waverley (Godalming)
+- # Godalming
   id: 36f9fdce-9ab4-446b-baae-09d607e1f9da
   twilio: +441252560595
   cab: +441252894288
-- # Age UK - Horsham
+- # Horsham
   id: 8c31f021-688d-49d0-a629-c74493547305
   twilio: +441243200365
   cab: +441243860516
-- # Gateshead Citizens Advice
+- # Gateshead
   id: 743d6115-6c23-4118-aba0-bdcc8129fea2
   twilio: +441913385929
   cab: +441912704485
@@ -2539,7 +2539,7 @@
   id: 21fadcf3-6d77-491c-b499-53e599e285b1
   twilio: +441915005895
   cab: +441912704485
-- # Brigg Local Links
+- # Brigg
   id: ee47f0be-6b7a-4eab-a9db-e8fb899787f8
   twilio: +441482429330
   cab: +441482816308
