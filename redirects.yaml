@@ -843,14 +843,6 @@
   id: c8a52d5a-4136-4c0f-b7f2-4277cfb8c249
   twilio: +441429450183
   cab: +441325249833
-- # Middlesbrough - DELETE
-  id: 184fcd75-7196-4be3-8541-bf2adad929d2
-  twilio: +441642688241
-  cab: +443003301001
-- # Redcar & Cleveland - DELETE
-  id: 3bce5d34-d7ea-45a3-a37a-117c9fc11c19
-  twilio: +441642688347
-  cab: +443003301001
 - # Stockton & District
   id: 8ffb927e-ceea-4db7-a373-a9f335428b8b
   twilio: +441642688169
@@ -1555,10 +1547,6 @@
   id: 54be01f2-44fc-435c-a6ca-48a43a95f78d
   twilio: +441143030468
   cab: +441142536706
-- # Sheffield City Centre - DELETE
-  id: a87e3c00-3463-4436-945b-6cc34ad16113
-  twilio: +441143031169
-  cab: +443003301001
 - # Rotherham
   id: fbb88185-0384-40a4-ab69-ff96b4078983
   twilio: +441709242151
@@ -2015,10 +2003,6 @@
   id: 905c625c-21cc-419b-9a00-855df775a313
   twilio: +441733530355
   cab: +441733887922
-- # Huntingdon - DELETE
-  id: a260c1f6-e929-4151-9812-d35bf6e17e27
-  twilio: +441733530315
-  cab: +443003301001
 - # St Ives
   id: 65d76b00-3370-42a2-952e-6dc0efe11c0b
   twilio: +441733530416
@@ -2027,10 +2011,6 @@
   id: 1dd4fe43-a0ca-4468-b7a3-d78b8d8501a1
   twilio: +441733530347
   cab: +441733887922
-- # Rushden - DELETE
-  id: 591870cf-a741-4e96-9eda-4b1dbf6c5df6
-  twilio: +442030950418
-  cab: +443003301001
 - # Towcester
   id: 1ba0df07-367f-41f3-8824-060a77a4a2be
   twilio: +442038236412
@@ -2135,14 +2115,6 @@
   id: 4fe94025-8d81-4b47-b875-129f6615e4c5
   twilio: +441522246125
   cab: +441522828617
-- # Waddington - DELETE
-  id: 023968c1-c46e-41af-ad55-3b9902e0380b
-  twilio: +441522246321
-  cab: +443003301001
-- # Lincoln County - DELETE
-  id: e384139b-a18f-4ad1-97e8-a74e3b5bcaa2
-  twilio: +441522246164
-  cab: +443003301001
 - # Retford
   id: 38a25f7c-37ab-41f7-91d2-c87a30251a58
   twilio: +441522246183
@@ -2187,10 +2159,6 @@
   id: 0540b4ed-b7dd-48f0-8a2e-011fa19fcedf
   twilio: +441494419277
   cab: +441494533330
-- # East Wittering - DELETE
-  id: 8ee85e52-8383-4e58-b73f-995e8563c179
-  twilio: +441243200377
-  cab: +443003301001
 - # Havant
   id: ff03a764-13c7-4fee-9318-f1bd412b4338
   twilio: +441243200086
@@ -2199,10 +2167,6 @@
   id: 7aff67d6-4e94-48eb-bca2-f78d01e2cd3e
   twilio: +441243200091
   cab: +441243860516
-- # Selsey - DELETE
-  id: d2b6ba3b-fd67-4a1e-8abd-a5dab92c5bc5
-  twilio: +441243200275
-  cab: +443003301001
 - # Petersfield
   id: 068af268-515f-47ba-9ef6-dea129b5413d
   twilio: +441243200364
@@ -2295,10 +2259,6 @@
   id: ddfe1168-abbf-461d-b5ea-1ce6c63ee4cf
   twilio: +441325952221
   cab: +441325249833
-- # Stanley - DELETE
-  id: 2c7270a4-89d6-4f51-acd0-ecd759e959b2
-  twilio: +441325952174
-  cab: +443003301001
 - # Newton Aycliff
   id: a371284c-681f-4da5-9d4f-c3f6b24620b3
   twilio: +441325527855
@@ -2307,30 +2267,10 @@
   id: d6770b66-b9c1-4087-ae29-063c5ffe7d84
   twilio: +441325952176
   cab: +441325249833
-- # Newcastle - DELETE
-  id: 20de0291-78da-4f61-9e7d-98a7fbb16772
-  twilio: +441915801484
-  cab: +443003301001
 - # Blyth
   id: 7702f38e-4e9f-42e2-8473-6fb6586d1bcf
   twilio: +441915801224
   cab: +441912704485
-- # Gateshead - DELETE
-  id: 26016146-fac1-436e-968f-3b7e8a11bf67
-  twilio: +441915801306
-  cab: +443003301001
-- # North Shields - DELETE
-  id: 16fbbcf9-9c99-4e9e-9b8a-77c24233d99e
-  twilio: +441915801481
-  cab: +443003301001
-- # South Shields - DELETE
-  id: 6a9c993e-a5ce-466f-8690-7a09ce3e94ea
-  twilio: +441915801489
-  cab: +443003301001
-- # Ashington - DELETE
-  id: 79fa5861-a6f5-46e6-b683-767e7e264c85
-  twilio: +441915801145
-  cab: +443003301001
 - # Cottingham
   id: 8901aecf-4a52-4608-8401-4c0d63c9c87e
   twilio: +441482240189
