@@ -2543,6 +2543,75 @@
   id: ee47f0be-6b7a-4eab-a9db-e8fb899787f8
   twilio: +441482429330
   cab: +441482816308
+- # Doncaster
+  id: fd07b26c-d5f9-4cb8-942f-206d6092e4c9
+  twilio: +441143031596
+  cab: +441142536706
+- # Abbots Langley
+  id: 7db68db6-ff70-477a-82fd-cded29d4094e
+  twilio: +441494372679
+  cab: +441494533330
+- # South Shields
+  id: 062d94cc-7cf7-48c6-b530-0dad5a5a616c
+  twilio: +441915803701
+  cab: +441912704485
+- # Washington
+  id: ff976c67-ecf5-4929-9136-32f57501fa32
+  twilio: +441915803807
+  cab: +441912704485
+- # Godalming
+  id: f926cc1e-3817-40e1-8373-902b299d3431
+  twilio: +441252560646
+  cab: +441252894288
+- # Ramsgate
+  id: a40d57f4-5a86-4e99-9ba7-ab2b5caf3636
+  twilio: +441622322195
+  cab: +441622756989
+- # Catford
+  id: ddf6eedb-b007-49a1-9def-64778c2ed38d
+  twilio: +442038287548
+  cab: +442070649710
+- # Fakenham
+  id: f53ac6c6-11bb-4961-a0e6-6d1dbaccb6b8
+  twilio: +441379770410
+  cab: +441379658205
+- # Great Yarmouth
+  id: 7639e7eb-3e62-4d2d-a34c-d2c9622ce72e
+  twilio: +441379770418
+  cab: +441379658205
+- # Norfolk
+  id: 2f174c40-aaf1-4916-9e5a-83a079698935
+  twilio: +441379770416
+  cab: +441379658205
+- # Pudsey
+  id: 05d8d928-03fb-4994-985e-44f197648074
+  twilio: +441134675089
+  cab: +441132816738
+- # Radcliffe
+  id: ef2b7eb9-d16d-4ad9-90b8-10ca62bf111b
+  twilio: +441942316391
+  cab: +441942267965
+- # Wantage
+  id: 271e70b9-27b0-4c56-910b-feca5530a3a0
+  twilio: +441793250467
+  cab: +443003030127
+- # Shipton Under Wychwood
+  id: 4cb791b1-37fd-4a3c-9edf-4ac41ba4cfa5
+  twilio: +441993224986
+  cab: +443003030127
+- # Ware
+  id: 3c50aa7f-9071-4310-93d5-1dcf2a19cc63
+  twilio: +441438300949
+  cab: +441438721760
+- # Droylsden
+  id: 585473d8-6227-45f1-aa7d-dc01bbe8db7b
+  twilio: +441616947337
+  cab: +441618302070
+- # Bristol
+  id: f9eb7d98-499d-4153-9088-02efa225f7d2
+  twilio: +441722449932
+  cab: +441722580052
+
 #
 # Video promo experiment
 #
