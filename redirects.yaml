@@ -1775,7 +1775,7 @@
   id: 34da8c77-39ce-43b6-88bf-7029803525f0
   twilio: +441380800058
   cab: +441722580052
-- # Salisbury
+- # Salisbury - DELETE
   id: df40ab40-77ba-4581-9845-be9985241aeb
   twilio: +441722449939
   cab: +441722580052
@@ -2610,6 +2610,10 @@
 - # Bristol
   id: f9eb7d98-499d-4153-9088-02efa225f7d2
   twilio: +441722449932
+  cab: +441722580052
+- # Salisbury
+  id: 39885a5e-ecd4-486f-b6d1-12e2f2053806
+  twilio: +441722449937
   cab: +441722580052
 
 #
