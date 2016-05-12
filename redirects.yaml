@@ -2615,6 +2615,14 @@
   id: 39885a5e-ecd4-486f-b6d1-12e2f2053806
   twilio: +441722449937
   cab: +441722580052
+- # Garforth
+  id: 909c5550-1262-40c0-b7c6-16a3512c53fb
+  twilio: +441133204918
+  cab: +441132816738
+- # Bradford
+  id: c08a491f-113a-49d1-9bbe-ff81d59f66ad
+  twilio: +441133204871
+  cab: +441132816738
 
 #
 # Video promo experiment
