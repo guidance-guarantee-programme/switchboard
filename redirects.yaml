@@ -2623,6 +2623,34 @@
   id: c08a491f-113a-49d1-9bbe-ff81d59f66ad
   twilio: +441133204871
   cab: +441132816738
+- # Pocklington
+  id: 54ad6dc8-631d-4f95-92ee-6c3556df871c
+  twilio: +441482428691
+  cab: +441482816308
+- # Hessle
+  id: 3897dee1-32a7-46d5-b5ab-90a64426ffe2
+  twilio: +441482428739
+  cab: +441482816308
+- # Neath
+  id: 50d99366-9a77-4fe6-afac-8e63d96b289f
+  twilio: +441686207055
+  cab: +441686617648
+- # Clapham Junction
+  id: d076ede9-5c36-49a4-879c-d8924792583f
+  twilio: +442038563265
+  cab: +442035597400
+- # Ulverston
+  id: 99cbb1fc-9d31-4ffd-b613-896ef3f9b1ce
+  twilio: +441900292052
+  cab: +44190068981
+- # Newcastle-under-Lyme
+  id: ff92f034-5d38-4606-814b-dc58f1189e4a
+  twilio: +441785472133
+  cab: +441785283019
+- # Ware
+  id: 04f7abf7-c520-4d4e-84e5-5f3725967d34
+  twilio: +441438300957
+  cab: +441438721760
 
 #
 # Video promo experiment
