@@ -455,6 +455,10 @@
 #
 # CITA
 #
+- # Sudbury
+  id: 26f675df-fbc6-41a2-9594-485c2052ec2e
+  twilio: +441379844049
+  cab: +441379658205
 - # Aberystwyth
   id: b5948a66-34fa-44f9-9c62-641eb2cf501b
   twilio: +441239393058
