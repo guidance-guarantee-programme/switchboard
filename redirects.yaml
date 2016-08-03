@@ -456,7 +456,7 @@
 # CITA
 #
 - # Sudbury
-  id: 26f675df-fbc6-41a2-9594-485c2052ec2e
+  id: d488c2e0-1840-4124-875a-3407385ec5f6
   twilio: +441379844049
   cab: +441379658205
 - # Aberystwyth
@@ -922,10 +922,6 @@
 - # Fakenham
   id: 9f8181dc-40f9-41df-a105-c77547dbfcab
   twilio: +441328442031
-  cab: +441379658205
-- # Sudbury
-  id: 16822d94-332e-477f-802e-eeb5e1c9a761
-  twilio: +441787321878
   cab: +441379658205
 - # Bury St Edmunds
   id: f51aae06-4936-4aa9-922a-2f6b185c5236
