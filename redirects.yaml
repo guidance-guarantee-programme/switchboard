@@ -815,13 +815,17 @@
   id: d163b963-0b56-4e41-b406-c10b9339113e
   twilio: +441212856966
   cab: +442476252621
-- # Shirley - DELETE
+- # Shirley
   id: c5ccd727-312c-400d-a608-fde2895ada48
-  twilio: +441212851961
-  cab: +442037333495
-- # Solihull
+  twilio: +442476101398
+  cab: +442476252621
+- # Solihull - previous location
   id: 8dfdd038-b67d-4dd5-a4d6-d3c179da5421
   twilio: +441212857413
+  cab: +442476252621
+- # Solihull
+  id: 678a2d4e-5d56-4ba1-a0a7-92fb22856c59
+  twilio: +442476100784
   cab: +442476252621
 - # North Warwickshire
   id: 99b57759-f262-4d07-bf94-52ea889513a7
@@ -1935,9 +1939,13 @@
   id: 846085a7-4c52-4a2d-a20f-0546bc5d5684
   twilio: +442920093999
   cab: +441646621884
-- # Minehead
+- # Minehead - previous location
   id: d23ea5f6-0353-4434-bfc1-6b8749d7a0c9
   twilio: +441823240174
+  cab: +441823448970
+- # Minehead
+  id: 05dbf9e9-662b-4b10-ad85-70c38bd08d6d
+  twilio: +441823240246
   cab: +441823448970
 - # Lampeter
   id: ca3ac388-8713-41f3-a534-ae1677d5e352
@@ -2015,9 +2023,13 @@
   id: 1ba0df07-367f-41f3-8824-060a77a4a2be
   twilio: +442038236412
   cab: +443003239940
-- # Tamworth
+- # Tamworth - previous location
   id: bb88b1c2-1545-47f9-ab2d-da654ff78317
   twilio: +442476101062
+  cab: +442476252621
+- # Tamworth
+  id: 5c211e67-eebe-4dd0-9e1c-e51ebfdf7528
+  twilio: +442476101078
   cab: +442476252621
 - # Warwick - DELETE
   id: da3b2e62-4d07-4f86-9849-31ea68c0b005
@@ -2511,13 +2523,21 @@
   id: f62e7baf-0084-41ba-bc72-aceca0dc5b77
   twilio: +441424400421
   cab: +441424452700
-- # Rugby
+- # Rugby - previous location
   id: 05f43e9f-a77a-4489-8b13-62881e330229
   twilio: +442476101091
   cab: +442476252621
-- # Nuneaton
+- # Rugby
+  id: 14457e54-8bd4-4126-b6cb-33c122905835
+  twilio: +442476101233
+  cab: +442476252621
+- # Nuneaton - previous location
   id: 17ba2afa-fd6c-4292-8276-804e07df62eb
   twilio: +442476100875
+  cab: +442476252621
+- # Nuneaton
+  id: bde0762f-d363-4fe8-a19c-c7e88a0e700d
+  twilio: +442476101432
   cab: +442476252621
 - # Godalming
   id: 36f9fdce-9ab4-446b-baae-09d607e1f9da
