@@ -120,6 +120,14 @@
   id: 37516769-0325-430d-a7f6-e40f4ebd8e10
   twilio: +441315101321
   cab: +443003034321
+- # Lochgilphead
+  id: e50a0813-d8bc-422b-b0f0-0850992f5ba4
+  twilio: +441315103475
+  cab: +448456123808
+- # Helensburgh
+  id: 7546ac30-5cba-4329-b49d-6ef30506731c
+  twilio: +441315104676
+  cab: +448456123808
 - # Arran
   id: b5dd79cd-6b49-4f97-8c70-8106a8fd6212
   twilio: +441294588049
@@ -180,6 +188,10 @@
   id: d547d683-3da6-419b-a77b-15de065e7b67
   twilio: +441506243061
   cab: +441506444814
+- # Glasgow
+  id: aa7425cf-48f5-474f-870a-887d117c9f99
+  twilio: +441315103645
+  cab: +448088009060
 - # Edinburgh (Dundas Street)
   id: e28ba8d7-da7c-4f57-8a97-3a28db685ce4
   twilio: +441315104743
@@ -895,6 +907,26 @@
   id: adbdad96-4d54-4ce0-ac1f-86bc55957baa
   twilio: +441978280107
   cab: +441745818081
+- # Buxton
+  id: b63e0799-2161-482f-bdfe-5188f904da32
+  twilio: +442033897602
+  cab: +448081467709
+- # Matlock
+  id: 44c35d0e-0ba9-4cf8-ae50-d13d6867d215
+  twilio: +441629704779
+  cab: +448081467709
+- # Chesterfield
+  id: ab2c8960-d3f2-49fb-98ac-028b3ff81398
+  twilio: +441246488227
+  cab: +448081467709
+- # Derby
+  id: 5ee835cb-f806-45f7-8bbf-b8252a647df0
+  twilio: +441332650143
+  cab: +448081467709
+- # Mansfield
+  id: 7a575fa1-4886-4df6-8242-e9d0fc022dbf
+  twilio: +441623272159
+  cab: +448081467709
 - # Diss
   id: b63c56e9-2111-43cc-bb72-c58ad4053bfc
   twilio: +441379844018
